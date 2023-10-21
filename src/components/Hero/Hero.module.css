@@ -1,5 +1,6 @@
 .root {
   height: 100vh;
+  padding-top: 30px;
   display: flex;
   justify-content: center;
   background-image: url("./hero.jpg");

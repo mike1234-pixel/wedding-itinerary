@@ -26,4 +26,9 @@ h4,
 h5,
 h6 {
   font-family: var(--font-display);
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 20px;
 }
