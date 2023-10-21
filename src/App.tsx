@@ -133,7 +133,7 @@ const App = () => {
 
             <h4>Midnight Dishes on the Buffet Table</h4>
 
-            <h4>2. Midnight Buffet</h4>
+            <h4>Midnight Buffet</h4>
             <ul>
               <li>Pork grilled in mustard with roasted vegetables</li>
               <li>Chicken breast grilled in herbs with potatoes</li>
@@ -144,7 +144,7 @@ const App = () => {
 
             <h4>Unlimited Drink</h4>
 
-            <h4>2. Alcoholic Offer</h4>
+            <h4>Alcoholic Offer</h4>
 
             <h5>Juices</h5>
             <ul>
@@ -208,7 +208,7 @@ const App = () => {
             <Fade bottom>
               <h3>Budapest</h3>
               <p>Budapest is a wonderful city with amazing things to see and we hope you enjoy your time here as much as we have!</p>
-              <p>If you're new to Budapest, <a href="/wedding-guide-final.pdf" target="_blank" rel="noopener noreferrer">please find our recommendations here</a>, <a href='/wedding-guide-final-persian.pdf' target="_blank" rel="noopener noreferrer">and in Farsi here</a>.</p>
+              <p>If you're new to Budapest, <a href="https://city-walks-illustrations.s3.eu-west-2.amazonaws.com/wedding-guide-final.pdf" target="_blank" rel="noopener noreferrer">please find our recommendations here</a>, <a href='https://city-walks-illustrations.s3.eu-west-2.amazonaws.com/wedding-guide-final-persian.pdf' target="_blank" rel="noopener noreferrer">and in Farsi here</a>.</p>
               <i style={{ fontStyle: 'normal', fontSize: 30 }}>🏛</i>
             </Fade>
           </div>
