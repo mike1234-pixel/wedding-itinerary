@@ -73,7 +73,7 @@ const App = () => {
         <LongSection bg='menu'>
           <div id="menu" className={classNames(styles.textCenter, styles.menu)}>
             <h3>Menu</h3>
-            <h4>1. Welcome Snacks</h4>
+            <h4>Welcome Snacks</h4>
             <ul>
               <li>Freshly baked salty pastries 10 dg/portion (cheese, greave, potato scones, cabbage, and meat mince)</li>
               <li>Fresh fruits of the season on the stick</li>
@@ -82,7 +82,7 @@ const App = () => {
             <h4>Menu Offer for Wedding Dinner from Buffet Table</h4>
             <p>We serve the appetizer on big plates, the soup in cups and the main courses and desserts on buffet tables.</p>
 
-            <h4>2. Wedding Dinner</h4>
+            <h4>Wedding Dinner</h4>
             <h4>Welcome Snacks on Tables</h4>
             <ul>
               <li>Freshly baked mini seeded salty roll and rye roll, natural and herbed butter</li>
