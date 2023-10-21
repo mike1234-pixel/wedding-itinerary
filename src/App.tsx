@@ -5,7 +5,6 @@ import { Section } from './components/Section/Section';
 import adamVilla from "./assets/adam-villa.jpg";
 import adamVilla2 from "./assets/adam-villa-2.jpg";
 import registryOffice from "./assets/registry-office.jpg";
-import Fade from 'react-reveal/Fade';
 import { LongSection } from './components/LongSection/LongSection';
 import styles from "./App.module.css";
 import classNames from 'classnames';
@@ -19,25 +18,25 @@ const App = () => {
       <div style={{ position: 'relative', zIndex: 2 }}>
         <LongSection bg='party'>
           <div className={styles.textCenter}>
-            <Fade bottom>
-              <h3>Welcome!</h3>
-              <p>We are honoured and delighted that you are able to attend our special day in Budapest!</p>
-              <p>Please find below an itinerary of the day which includes full details of the ceremony, reception and sequence of events.</p>
-              <i style={{ fontStyle: 'normal', fontSize: 30 }}>❤️</i>
-            </Fade>
+
+            <h3>Welcome!</h3>
+            <p>We are honoured and delighted that you are able to attend our special day in Budapest!</p>
+            <p>Please find below an itinerary of the day which includes full details of the ceremony, reception and sequence of events.</p>
+            <i style={{ fontStyle: 'normal', fontSize: 30 }}>❤️</i>
+
           </div>
         </LongSection>
         <Section bg='bud1' leftContent={<div className={styles.text}>
           <div>
-            <Fade bottom>
-              <h3>Ceremony</h3>
-              <p>The ceremony is taking place at the registry office in District VIII of Budapest: Baross u 63-67, 1082 Hungary at 4pm</p>
-              <p>Please be at the registry by 3:40pm</p>
-              <p>The service will be conducted in Hungarian and our good friend Bogi will be kindly translating to English.</p>
-              <p>Please arrange transport from Baross Utca to Adam Villa where the reception will take place.</p>
-              <p>Taxis can be ordered via the Bolt app.</p>
-              <p>The journey takes 10 minutes by car or 30 minutes by public transport.</p>
-            </Fade>
+
+            <h3>Ceremony</h3>
+            <p>The ceremony is taking place at the registry office in District VIII of Budapest: Baross u 63-67, 1082 Hungary at 4pm</p>
+            <p>Please be at the registry by 3:40pm</p>
+            <p>The service will be conducted in Hungarian and our good friend Bogi will be kindly translating to English.</p>
+            <p>Please arrange transport from Baross Utca to Adam Villa where the reception will take place.</p>
+            <p>Taxis can be ordered via the Bolt app.</p>
+            <p>The journey takes 10 minutes by car or 30 minutes by public transport.</p>
+
           </div>
         </div>}
           rightContent={
@@ -46,25 +45,25 @@ const App = () => {
         />
         <Section bg='bud2' imgLeft={true} leftContent={<img src={adamVilla} alt="adam villa - budapest" />} rightContent={<div className={styles.text}>
           <div>
-            <Fade bottom>
-              <h3>Reception</h3>
-              <p>The reception at Adam Villa (Budapest, Városligeti fasor 35a, 1071 Hungary) will start at 5:15pm, and welcome snacks and drinks will be served.</p>
-              <p>We will start taking photos from 5:45pm and we will call guests individually for photos.</p>
-              <p>Dinner will take place from 7pm-8pm.</p>
-              <p>Dinner will be a buffet with a variety of options and alcohol is unlimited!</p>
-              <p>Please <a href="#menu">find the menu here.</a></p>
-            </Fade>
+
+            <h3>Reception</h3>
+            <p>The reception at Adam Villa (Budapest, Városligeti fasor 35a, 1071 Hungary) will start at 5:15pm, and welcome snacks and drinks will be served.</p>
+            <p>We will start taking photos from 5:45pm and we will call guests individually for photos.</p>
+            <p>Dinner will take place from 7pm-8pm.</p>
+            <p>Dinner will be a buffet with a variety of options and alcohol is unlimited!</p>
+            <p>Please <a href="#menu">find the menu here.</a></p>
+
           </div>
         </div>} />
         <Section bg='bud3' leftContent={<div className={styles.text}>
           <div>
-            <Fade bottom>
-              <h3>Party</h3>
-              <p>After dinner, we will have speeches, followed by music and dancing from 9pm.</p>
-              <p>We will be cutting the cake at 10pm.</p>
-              <p>There will be a midnight buffet at 12am.</p>
-              <p>The party will end between 2 and 3am.</p>
-            </Fade>
+
+            <h3>Party</h3>
+            <p>After dinner, we will have speeches, followed by music and dancing from 9pm.</p>
+            <p>We will be cutting the cake at 10pm.</p>
+            <p>There will be a midnight buffet at 12am.</p>
+            <p>The party will end between 2 and 3am.</p>
+
           </div>
         </div>}
           rightContent={
@@ -195,22 +194,22 @@ const App = () => {
         </LongSection>
         <LongSection bg='gifts'>
           <div className={styles.textCenter}>
-            <Fade bottom>
-              <h3>Gifts</h3>
-              <p>We do not have a wedding gift list, but we appreciate all gifts!</p>
-              <p>Gifts that are smaller in size or consumable are preferable, as we will need to be able to transport them to our next destination.</p>
-              <i style={{ fontStyle: 'normal', fontSize: 30 }}>🎁</i>
-            </Fade>
+
+            <h3>Gifts</h3>
+            <p>We do not have a wedding gift list, but we appreciate all gifts!</p>
+            <p>Gifts that are smaller in size or consumable are preferable, as we will need to be able to transport them to our next destination.</p>
+            <i style={{ fontStyle: 'normal', fontSize: 30 }}>🎁</i>
+
           </div>
         </LongSection>
         <LongSection bg='budapest'>
           <div className={styles.textCenter}>
-            <Fade bottom>
-              <h3>Budapest</h3>
-              <p>Budapest is a wonderful city with amazing things to see and we hope you enjoy your time here as much as we have!</p>
-              <p>If you're new to Budapest, <a href="https://city-walks-illustrations.s3.eu-west-2.amazonaws.com/wedding-guide-final.pdf" target="_blank" rel="noopener noreferrer">please find our recommendations here</a>, <a href='https://city-walks-illustrations.s3.eu-west-2.amazonaws.com/wedding-guide-final-persian.pdf' target="_blank" rel="noopener noreferrer">and in Farsi here</a>.</p>
-              <i style={{ fontStyle: 'normal', fontSize: 30 }}>🏛</i>
-            </Fade>
+
+            <h3>Budapest</h3>
+            <p>Budapest is a wonderful city with amazing things to see and we hope you enjoy your time here as much as we have!</p>
+            <p>If you're new to Budapest, <a href="https://city-walks-illustrations.s3.eu-west-2.amazonaws.com/wedding-guide-final.pdf" target="_blank" rel="noopener noreferrer">please find our recommendations here</a>, <a href='https://city-walks-illustrations.s3.eu-west-2.amazonaws.com/wedding-guide-final-persian.pdf' target="_blank" rel="noopener noreferrer">and in Farsi here</a>.</p>
+            <i style={{ fontStyle: 'normal', fontSize: 30 }}>🏛</i>
+
           </div>
         </LongSection>
         <LongSection bg='red'>
