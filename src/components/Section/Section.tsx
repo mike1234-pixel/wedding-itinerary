@@ -15,10 +15,10 @@ export const Section = ({ leftContent, rightContent, bg, imgLeft }: SectionProps
     return (
         <div className={(styles.root)}>
             <Row>
-                <Col md={{ span: 24, order: imgLeft ? 2 : 1 }} lg={{ span: 12, order: 1 }} className={classNames(styles.root, styles[bg])}>
+                <Col xs={{ span: 24, order: imgLeft ? 2 : 1 }} lg={{ span: 12, order: 1 }} className={classNames(styles.root, styles[bg])}>
                     {leftContent}
                 </Col>
-                <Col md={{ span: 24, order: imgLeft ? 1 : 2 }} lg={{ span: 12, order: 2 }} className={classNames(styles.root, styles[bg])}>
+                <Col xs={{ span: 24, order: imgLeft ? 1 : 2 }} lg={{ span: 12, order: 2 }} className={classNames(styles.root, styles[bg])}>
                     {rightContent}
                 </Col>
             </Row>

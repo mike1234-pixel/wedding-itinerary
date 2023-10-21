@@ -5,7 +5,7 @@
   justify-content: center;
   background-image: url("./hero.jpg");
   background-size: cover;
-  background-position-x: center;
+  background-position-x: 35%;
   background-position-y: 35%;
   background-attachment: fixed;
 }

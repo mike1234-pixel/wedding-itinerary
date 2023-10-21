@@ -44,7 +44,7 @@ const App = () => {
             <img src={registryOffice} alt="district 8 budapest registry office" />
           }
         />
-        <Section bg='bud2' imgLeft leftContent={<img src={adamVilla} alt="adam villa - budapest" />} rightContent={<div className={styles.text}>
+        <Section bg='bud2' imgLeft={true} leftContent={<img src={adamVilla} alt="adam villa - budapest" />} rightContent={<div className={styles.text}>
           <div>
             <Fade bottom>
               <h3>Reception</h3>
@@ -211,6 +211,14 @@ const App = () => {
               <p>If you're new to Budapest, <a href="/wedding-guide-final.pdf" target="_blank" rel="noopener noreferrer">please find our recommendations here</a>, <a href='/wedding-guide-final-persian.pdf' target="_blank" rel="noopener noreferrer">and in Farsi here</a>.</p>
               <i style={{ fontStyle: 'normal', fontSize: 30 }}>🏛</i>
             </Fade>
+          </div>
+        </LongSection>
+        <LongSection bg='red'>
+          <div className={styles.textCenter}>
+            <p>Let's make it a day to remember!</p>
+            <p style={{ fontStyle: 'italic' }}>Love</p>
+            <p>Faranak and Michael</p>
+            <i style={{ fontStyle: 'normal', fontSize: 30 }}>🎈</i>
           </div>
         </LongSection>
       </div >

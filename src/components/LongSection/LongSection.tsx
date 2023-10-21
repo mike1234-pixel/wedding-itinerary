@@ -4,7 +4,7 @@ import styles from './LongSection.module.css';
 
 interface LongSectionProps {
     children: ReactNode | ReactNode[];
-    bg?: 'menu' | 'party' | 'gifts' | 'budapest';
+    bg?: 'menu' | 'party' | 'gifts' | 'budapest' | 'red';
 }
 
 export const LongSection = ({ children, bg }: LongSectionProps) => {
