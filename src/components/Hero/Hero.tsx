@@ -15,6 +15,7 @@ export const Hero = () => {
             <div className={styles.title}>
                 <h1>Faranak and Michael's Wedding</h1>
                 <h2>Itinerary</h2>
+                <h4>Friday 10th November</h4>
             </div>
         </div>
     );

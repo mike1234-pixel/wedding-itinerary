@@ -7,10 +7,13 @@
   background-size: cover;
   background-position-x: center;
   background-position-y: 35%;
+  background-attachment: fixed;
 }
 
 .title {
   font-family: var(--font-display);
   text-align: center;
   color: white;
+  position: fixed;
+  z-index: 1;
 }

@@ -1,3 +1,24 @@
+.bud1 {
+  background-image: url("../../assets/budapest-1.jpg");
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.9);
+  background-blend-mode: lighten;
+}
+
+.bud2 {
+  background-image: url("../../assets/budapest-2.jpg");
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.9);
+  background-blend-mode: lighten;
+}
+
+.bud3 {
+  background-image: url("../../assets/budapest-3.jpg");
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.9);
+  background-blend-mode: lighten;
+}
+
 .root img {
   width: 100%;
 }
