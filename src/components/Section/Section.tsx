@@ -1,5 +1,6 @@
 import { Row, Col } from "antd";
 import { ReactNode } from "react";
+import classNames from "classnames";
 import styles from "./Section.module.css";
 
 interface SectionProps {
@@ -13,10 +14,10 @@ export const Section = ({ leftContent, rightContent, bg }: SectionProps) => {
     return (
         <div className={(styles.root)}>
             <Row>
-                <Col md={24} lg={12} className={styles[bg]}>
+                <Col md={24} lg={12} className={classNames(styles.root, styles[bg])}>
                     {leftContent}
                 </Col>
-                <Col md={24} lg={12} className={styles[bg]}>
+                <Col md={24} lg={12} className={classNames(styles.root, styles[bg])}>
                     {rightContent}
                 </Col>
             </Row>
