@@ -44,7 +44,7 @@ const App = () => {
             <img src={registryOffice} alt="district 8 budapest registry office" />
           }
         />
-        <Section bg='bud2' leftContent={<img src={adamVilla} alt="adam villa - budapest" />} rightContent={<div className={styles.text}>
+        <Section bg='bud2' imgLeft leftContent={<img src={adamVilla} alt="adam villa - budapest" />} rightContent={<div className={styles.text}>
           <div>
             <Fade bottom>
               <h3>Reception</h3>
@@ -59,7 +59,7 @@ const App = () => {
         <Section bg='bud3' leftContent={<div className={styles.text}>
           <div>
             <Fade bottom>
-              <h3>Reception</h3>
+              <h3>Party</h3>
               <p>After dinner, we will have speeches, followed by music and dancing from 9pm.</p>
               <p>We will be cutting the cake at 10pm.</p>
               <p>There will be a midnight buffet at 12am.</p>
@@ -193,7 +193,7 @@ const App = () => {
           </div>
 
         </LongSection>
-        <LongSection>
+        <LongSection bg='gifts'>
           <div className={styles.textCenter}>
             <Fade bottom>
               <h3>Gifts</h3>
@@ -203,16 +203,17 @@ const App = () => {
             </Fade>
           </div>
         </LongSection>
-        <LongSection>
+        <LongSection bg='budapest'>
           <div className={styles.textCenter}>
             <Fade bottom>
               <h3>Budapest</h3>
               <p>Budapest is a wonderful city with amazing things to see and we hope you enjoy your time here as much as we have!</p>
-              <p>If you're new to Budapest, please find our recommendations here.</p>
+              <p>If you're new to Budapest, <a href="/wedding-guide-final.pdf" target="_blank" rel="noopener noreferrer">please find our recommendations here</a>, <a href='/wedding-guide-final-persian.pdf' target="_blank" rel="noopener noreferrer">and in Farsi here</a>.</p>
+              <i style={{ fontStyle: 'normal', fontSize: 30 }}>🏛</i>
             </Fade>
           </div>
         </LongSection>
-      </div>
+      </div >
 
     </ConfettiAnimationContextProvider >
   );
