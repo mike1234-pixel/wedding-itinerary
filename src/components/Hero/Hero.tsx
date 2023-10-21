@@ -14,7 +14,7 @@ export const Hero = () => {
     return (
         <div className={styles.root}>
             <div className={styles.title}>
-                <Bounce delay={500}>
+                <Bounce delay={1000}>
                     <h1>Faranak and Michael's Wedding</h1>
                     <h2>Itinerary</h2>
                     <h4>Friday 10th November</h4>
