@@ -82,9 +82,6 @@ const App = () => {
                 <li>Fresh fruits of the season on the stick</li>
               </ul>
 
-              <h4>Menu Offer for Wedding Dinner from Buffet Table</h4>
-              <p>We serve the appetizer on big plates, the soup in cups and the main courses and desserts on buffet tables.</p>
-
               <h4>Wedding Dinner</h4>
               <h4>Welcome Snacks on Tables</h4>
               <ul>
@@ -109,14 +106,14 @@ const App = () => {
                 <li>Grey catfish roasted on thyme served with pumpkin ragout with sour cream and dill and with potatoes</li>
               </ul>
 
-              <h4>Our Salad Offer</h4>
+              <h4>Salad Offer</h4>
               <ul>
                 <li>Caesar salad with roasted chicken breast and parmesan</li>
                 <li>Greek salad</li>
                 <li>Potato and apple salad</li>
               </ul>
 
-              <h4>Vinegars, Balsams, and Dressings for Our Cold and Hot Dishes</h4>
+              <h4>Vinegars, Balsams, and Dressings for Cold and Hot Dishes</h4>
               <ul>
                 <li>Extra virgin olive oil, red and white vinegars, dill-yogurt dressing, thousand islands dressing, fresh herbs and lemon</li>
               </ul>
@@ -132,8 +129,6 @@ const App = () => {
                 <li>White and dark chocolate mousse with savory</li>
                 <li>Black and white sponge cake with chocolate sauce</li>
               </ul>
-
-              <h4>Midnight Dishes on the Buffet Table</h4>
 
               <h4>Midnight Buffet</h4>
               <ul>
