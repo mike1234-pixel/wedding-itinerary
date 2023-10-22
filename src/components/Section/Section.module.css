@@ -23,8 +23,6 @@
 .col {
   width: 50%;
   background-size: cover;
-  background-color: rgba(255, 255, 255, 0.9);
-  background-blend-mode: lighten;
 }
 
 @media (max-width: 991px) {
