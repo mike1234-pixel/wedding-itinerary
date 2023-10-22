@@ -2,26 +2,24 @@
   display: flex;
   justify-content: center;
   padding: 60px 30px;
-  background-color: rgba(255, 255, 255, 0.9);
-  background-blend-mode: lighten;
   background-size: cover;
   background-attachment: fixed;
 }
 
 .menu {
-  background-image: url("../../assets/menu.jpg");
+  background-image: url("../../assets/menu-1.jpg");
 }
 
 .party {
-  background-image: url("../../assets/party.jpg");
+  background-image: url("../../assets/party-1.jpg");
 }
 
 .gifts {
-  background-image: url("../../assets/gifts.jpg");
+  background-image: url("../../assets/gifts-1.jpg");
 }
 
 .budapest {
-  background-image: url("../../assets/budapest.jpg");
+  background-image: url("../../assets/budapest-x.jpg");
 }
 
 .red {
